@@ -51,17 +51,13 @@ export function LoginScreen() {
             <View style={{ paddingHorizontal: 40 }}>
               <View>
                 <Image
-                  style={{
-                    width: 90,
-                    height: 60,
-                    alignSelf: 'center',
-                  }}
+                  className='w-32 h-32 mx-auto'
                   source={Logo}
                   resizeMode="contain"
                 />
               </View>
               <View style={{ marginBottom: 32 }}>
-                <Text style={typography.titleClean}>Bem-vindo de volta</Text>
+                <Text style={typography.titleClean}>Bem-vindo de volta ao Ling Duo</Text>
                 <Text style={typography.subTitleClean}>Logar na sua conta</Text>
               </View>
               <View style={formStyles.compactInputWrapper}>
